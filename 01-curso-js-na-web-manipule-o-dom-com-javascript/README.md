@@ -1,7 +1,7 @@
 ```javascript
 
 document
-document.querySelector('div') // primeiro que encontrar [tag=div, id=#id, classe=.classe]
+document.querySelector('div') // primeiro que encontrar (tag=div, id=#id, classe=.classe, data-=[data-..]
 document.querySelectorAll('div') // lista de nodos encontrados
 document.querySelector('button').textContent // consultar ou setar valor
 
