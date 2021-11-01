@@ -20,5 +20,12 @@ document.getElementById('id') // seleciona o elemento pelo id passado.
 document.getElementsByClassName('classe') //retorna um array dos elementos pelo nome da classe passada.
 document.getElementsByTagName('tag') // retorna um array dos elementos pelo nome da tag passada
 
+// Template String
+// interpolando strings com JavaScript
+// ES6
+const conteudo = `<p>${dado}</p>`
+const conteudo2 = `<p>${funcao(parametro)}</p>`
+
+
 
 ```
