@@ -26,6 +26,12 @@ document.getElementsByTagName('tag') // retorna um array dos elementos pelo nome
 const conteudo = `<p>${dado}</p>`
 const conteudo2 = `<p>${funcao(parametro)}</p>`
 
+const tarefa = botao.parentElement
+tarefa.classList.toggle('done')
+tarefa.classList.add('check-button')
 
+// não deixar no escopo global - IIFE
+// IIFE (Immediately Invoked Function Expression) é uma função em JavaScript que é executada assim que definida.
+(() => { ... } )()
 
 ```
