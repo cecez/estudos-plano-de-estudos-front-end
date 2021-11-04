@@ -34,4 +34,19 @@ tarefa.classList.add('check-button')
 // IIFE (Immediately Invoked Function Expression) é uma função em JavaScript que é executada assim que definida.
 (() => { ... } )()
 
+// excluir elemento
+elemento.remove()
+
+// criando e exportando um módulo
+export default BotaoConcluir
+export default { obj, func, etc }
+
+// importando módulo
+import BotaoConcluir from "./components/BotaoConcluir.js"
+
+// se arquivo importar módulos, usar
+<script src="assets/js/main.js" type="module"></script> 
+
+
+
 ```
